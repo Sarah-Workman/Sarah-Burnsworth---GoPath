@@ -1,7 +1,11 @@
+package api
+
 import (
+	"fmt"
+
 	current_weather "github.com/Sarah-Workman/Sarah-Burnsworth---GoPath/clients/current-weather"
 	"github.com/Sarah-Workman/Sarah-Burnsworth---GoPath/models"
- )
+)
 
  type Service interface {
 	GetCurrentWeather(lat, lon string) (models.CurrentWeatherResponse, error)
