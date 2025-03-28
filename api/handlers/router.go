@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/Sarah-Workman/Sarah-Burnsworth---GoPath/api"
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 )
 
 const URL_CURRENT_WEATHER = "/current-weather"
