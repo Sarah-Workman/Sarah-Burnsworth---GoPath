@@ -28,7 +28,7 @@ import (
 	}
 
 
-	var currentWeatherResponse models.CurrentWeatherResponse
+var currentWeatherResponse models.CurrentWeatherResponse
 currentWeatherResponse.City = response.Name
 
 var weatherDesc string
